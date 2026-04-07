@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Yoshihiko Baba"
+  navbar:
+    background: "#f8dfe7"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+    right:
+      - text: "日本語"
+        href: /
+      - text: "EN"
+        href: /en/
+format:
+  html:
+    theme:
+      - minty
+      - custom.scss
+    toc: true

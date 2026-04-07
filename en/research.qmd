@@ -1,0 +1,19 @@
+---
+title: "Research"
+---
+
+# Research Themes
+
+- Long-term care
+  - Community-oriented care
+  - Care process
+  - Dementia
+  - Parkinson's disease
+  - Patient-led research
+- Urban planning
+  - community design code
+  - vacant houses
+  - Niigatalogy
+- Geographical information system
+  - R/sf/geojp
+  - QGIS プラグイン開発
