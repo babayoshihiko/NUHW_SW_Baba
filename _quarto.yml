@@ -3,7 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "Yoshihiko Baba"
+  title: "NUHW_SW_Baba"
+  site-url: "https://babayoshihiko.github.io/NUHW_SW_Baba/"
   navbar:
     background: "#f8dfe7"
     left:
