@@ -5,6 +5,7 @@ project:
 website:
   title: "NUHW_SW_Baba"
   site-url: "https://babayoshihiko.github.io/NUHW_SW_Baba/"
+  repo-url: "https://github.com/babayoshihiko/NUHW_SW_Baba"
   navbar:
     background: "#f8dfe7"
     left:
@@ -14,9 +15,10 @@ website:
         href: research.qmd
     right:
       - text: "日本語"
-        href: /
+        href: index.qmd
       - text: "EN"
-        href: /en/
+        href: en/index.qmd
+
 format:
   html:
     theme:
