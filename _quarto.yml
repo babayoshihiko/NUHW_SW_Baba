@@ -1,26 +1,41 @@
 project:
   type: website
+  # サイトのURLパスを正確に指定
+  output-dir: _site
 
 website:
   title: "NUHW_SW_Baba"
+  # site-url を含め、最後のスラッシュまで正しく設定
   site-url: "https://babayoshihiko.github.io/NUHW_SW_Baba/"
-  repo-url: "https://github.com/babayoshihiko/NUHW_SW_Baba"
+
   navbar:
     background: "#f8dfe7"
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Research"
-        href: research.qmd
     right:
+      # 切り替えボタンだけは、確実に飛ばすためにフルURL（またはプロジェクトルートからのパス）
       - text: "日本語"
-        href: index.qmd
-      - text: "EN"
-        href: en/index.qmd
+        href: /index.html
+      - text: "English"
+        href: /en/index.html
+
+  sidebar:
+    style: "docked"
+    contents:
+      - section: "日本語 / Japanese"
+        contents:
+          # ここに / をつけず、.html で書くのがコツです
+          - text: "ホーム"
+            href: "index.html"
+          - text: "研究"
+            href: "research.html"
+      - section: "English"
+        contents:
+          # 英語版フォルダの中を見に行くように相対パスで指定
+          - text: "Home"
+            href: "en/index.html"
+          - text: "Research"
+            href: "en/research.html"
 
 format:
   html:
-    theme:
-      - minty
-      - custom.scss
+    theme: cosmo
     toc: true

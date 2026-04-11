@@ -27,8 +27,6 @@ library(DT)
 library(leaflet)
 library(leaflet.extras)
 
-df <- read_csv("data.csv")
-
 df <- read_csv("data.csv", trim_ws = TRUE)
 
 # ポップアップ表示用テキスト
