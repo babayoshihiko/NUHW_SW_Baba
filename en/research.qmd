@@ -10,6 +10,7 @@ title: "Research"
   - Dementia
   - Parkinson's disease
   - Patient-led research
+  - Inclusive Fashion Show
 - Urban planning
   - community design code
   - vacant houses
@@ -17,3 +18,52 @@ title: "Research"
 - Geographical information system
   - R/sf/geojp
   - QGIS プラグイン開発
+
+## Inclusive Fashion Show
+
+```{r include=FALSE}
+library(readr)
+library(DT)
+library(leaflet)
+library(leaflet.extras)
+
+df <- read_csv("data.csv")
+
+df <- read_csv("data.csv", trim_ws = TRUE)
+
+# ポップアップ表示用テキスト
+popup_text <- paste0(
+  "<b>Event:</b> ", df$name,
+  "<br><b>Data:</b> ", df$date,
+  "<br><b>Hosted by:</b> ", df$host
+)
+
+# 地図作成
+m <- leaflet(data = df)
+
+# 背景地図
+m <- addProviderTiles(m, providers$CartoDB.Positron)
+
+# マーカー追加
+m <- addMarkers(
+  map = m,
+  lng = df$X,
+  lat = df$Y,
+  popup = popup_text
+)
+```
+
+```{r echo=FALSE}
+addFullscreenControl(m)
+```
+
+```{r echo=FALSE}
+table_df <- df[, c("name", "date", "host")]
+
+datatable(
+  table_df,
+  colnames = c("Event", "Date", "Hosted by"),
+  options = list(pageLength = 10)
+)
+```
+
