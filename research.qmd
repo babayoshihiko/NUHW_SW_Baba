@@ -7,17 +7,19 @@ title: "研究"
 - 介護
   - 地域密着型介護
   - 介護過程
-  - 認知症
-  - パーキンソン病
   - 当事者研究
+    - 認知症 (Dementia)
+    - パーキンソン病 (Parkinson's Disease)
+    - 脊髄小脳変性症 (Spinocerebellar Degeneration; SCD)
+    - 脳卒中 (Stroke)
   - 多様性ファッションショー
 - 都市計画
-  - community design code
+  - 都市コード
   - 空き家活用
   - 新潟学
-- Geographical information system
+- 地理情報システム
   - R/sf/geojp
-  - QGIS plugin development
+  - QGIS プラグイン開発
 
 
 ## 多様性ファッションショー

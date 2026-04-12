@@ -53,3 +53,4 @@ rsconnect/
 
 _site
 docs
+*_files

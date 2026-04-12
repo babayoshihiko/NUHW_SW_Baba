@@ -11,7 +11,6 @@ website:
   navbar:
     background: "#f8dfe7"
     right:
-      # 切り替えボタンだけは、確実に飛ばすためにフルURL（またはプロジェクトルートからのパス）
       - text: "日本語"
         href: /index.html
       - text: "English"
@@ -20,16 +19,14 @@ website:
   sidebar:
     style: "docked"
     contents:
-      - section: "日本語 / Japanese"
+      - section: "日本語"
         contents:
-          # ここに / をつけず、.html で書くのがコツです
           - text: "ホーム"
             href: "index.html"
           - text: "研究"
             href: "research.html"
       - section: "English"
         contents:
-          # 英語版フォルダの中を見に行くように相対パスで指定
           - text: "Home"
             href: "en/index.html"
           - text: "Research"

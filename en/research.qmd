@@ -7,17 +7,19 @@ title: "Research"
 - Long-term care
   - Community-oriented care
   - Care process
-  - Dementia
-  - Parkinson's disease
   - Patient-led research
+    - Dementia
+    - Parkinson's disease
+    - Spinocerebellar Degeneration (SCD)
+    - Stroke
   - Inclusive Fashion Show
 - Urban planning
-  - community design code
-  - vacant houses
+  - Community design code
+  - Utilising vacant properties
   - Niigatalogy
 - Geographical information system
   - R/sf/geojp
-  - QGIS プラグイン開発
+  - QGIS plugin development
 
 ## Inclusive Fashion Show
 
