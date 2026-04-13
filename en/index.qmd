@@ -4,9 +4,11 @@ title: "Baba, Department of Social Work, Niigata University of Health and Welfar
 
 The laboratory (zemi) conducts practical research focusing on community development and community-oriented care. Our main areas of study are within Niigata Prefecture and Tokyo.
 
-In Japan’s long-term care insurance system, alongside residential care and home-based care, there is also community-oriented care. In community-oriented care, it is believed that the quality of life (QOL) of service users is maintained and improved by visiting various locations within the local community—such as their own homes, day care centres, local supermarkets, convenience stores, public bathhouses, and friends’ homes. Community-based care includes dementia group homes and small-scale multi-functional home care services.
+Human beings are fundamentally “walking” beings. Walking stimulates physical and mental activity while also creating opportunities to connect with people and the wider community. Importantly, “walking” does not necessarily require the use of one’s own legs; rather, it refers to actively engaging with the community—such as going out into the city, strolling through parks, encountering others, or enjoying activities like walking a runway in stylish clothing. Our research aims to train QOL supporters who deliver this type of community-based care and to establish scientific evidence for its effectiveness.
 
-In addition to undergraduate students, we welcome people with lived experience, students and postgraduates from other universities, international researchers, and secondary school students.
+In addition to the institutional and home-based care commonly found in many countries, Japan’s long-term care insurance system uniquely includes community-oriented care. In community-oriented care, it is believed that the quality of life (QOL) of service users is maintained and improved by visiting various locations within the local community—such as their own homes, day care centres, local supermarkets, convenience stores, public bathhouses, and friends’ homes. Community-based care includes dementia group homes and small-scale multi-functional home care services.
+
+In addition to undergraduate students, we welcome patients interested in studying their own diseases, students and postgraduate researchers from other universities, international scholars, and secondary school students.
 
 ## Members
 
@@ -22,3 +24,6 @@ The network of long-term care practice trainers.
   - [Department of Social Welfare](https://www.nuhw.ac.jp/faculty/sw/)
 - Niigata University
   - [Matsui Lab., Architecture Program](https://matsui2014.wixsite.com/urbandesignlab)
+- Niigata Intractable Diseases Support Network
+  - [Patient advocacy groups](https://niigata-nansen.com/atientsgroup.html)
+
