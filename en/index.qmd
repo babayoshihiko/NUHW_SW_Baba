@@ -1,5 +1,6 @@
 ---
-title: "Baba, Department of Social Work, Niigata University of Health and Welfare"
+title: "Comunity Design Laboratory"
+subtitle: "Department of Social Work, Niigata University of Health and Welfare"
 ---
 
 The laboratory (zemi) conducts practical research focusing on community development and community-oriented care. Our main areas of study are within Niigata Prefecture and Tokyo.

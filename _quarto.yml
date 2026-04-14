@@ -10,27 +10,17 @@ website:
 
   navbar:
     background: "#f8dfe7"
-    right:
-      - text: "日本語"
+    pinned: true
+    collapse-below: sm
+    left:
+      - text: "ホーム"
         href: /index.html
-      - text: "English"
+      - text: "研究"
+        href: /research.html
+      - text: "Home"
         href: /en/index.html
-
-  sidebar:
-    style: "docked"
-    contents:
-      - section: "日本語"
-        contents:
-          - text: "ホーム"
-            href: "index.html"
-          - text: "研究"
-            href: "research.html"
-      - section: "English"
-        contents:
-          - text: "Home"
-            href: "en/index.html"
-          - text: "Research"
-            href: "en/research.html"
+      - text: "Research"
+        href: /en/research.html
 
 format:
   html:
