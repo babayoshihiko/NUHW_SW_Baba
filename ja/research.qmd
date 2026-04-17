@@ -24,6 +24,12 @@ lang: ja
   - QGIS プラグイン開発
 
 
+## 日本の高齢化とまちづくり
+
+Baba Y and Ooyama C (2025) Comprehensive community care in Japan, in 
+<a href="https://www.taylorfrancis.com/books/oa-edit/10.4324/9781003144441/ageing-urban-planning-matthias-drilling-fabian-neuhaus-pamela-suero-hind-al-shoubaki?refId=bd8c5e5c-1349-430b-804c-d47dca69b7ec&context=ubx">Ageing and Urban Planning </a>
+
+
 ## 多様性ファッションショー
 
 ```{r include=FALSE}
