@@ -90,6 +90,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (url.origin !== origin) return;
 
+    // ★ basePath除去（これが本質）
+    let path = stripBasePath(url.pathname);
+
     const segs = url.pathname.split("/").filter(Boolean);
     const targetLang = segs[0];
 
