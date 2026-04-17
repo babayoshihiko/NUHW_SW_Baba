@@ -1,5 +1,6 @@
 ---
 title: "Research"
+lang: en
 ---
 
 # Research Themes
@@ -14,6 +15,7 @@ title: "Research"
     - Stroke
   - Inclusive Fashion Show
 - Urban planning
+  - Walkable town for older adults and people with disabilities
   - Community design code
   - Utilising vacant properties
   - Niigatalogy

@@ -1,70 +1,8 @@
----
-title: "研究"
----
-
-# 研究テーマ
-
-- 介護
-  - 地域密着型介護
-  - 介護過程
-  - 当事者研究
-    - 認知症 (Dementia)
-    - パーキンソン病 (Parkinson's Disease)
-    - 脊髄小脳変性症 (Spinocerebellar Degeneration; SCD)
-    - 脳卒中 (Stroke)
-  - 多様性ファッションショー
-- 都市計画
-  - 都市コード
-  - 空き家活用
-  - 新潟学
-- 地理情報システム
-  - R/sf/geojp
-  - QGIS プラグイン開発
-
-
-## 多様性ファッションショー
-
-```{r include=FALSE}
-library(readr)
-library(DT)
-library(leaflet)
-library(leaflet.extras)
-
-df <- read_csv("data.csv", trim_ws = TRUE)
-
-# ポップアップ表示用テキスト
-popup_text <- paste0(
-  "<b>イベント名:</b> ", df$name,
-  "<br><b>日付:</b> ", df$date,
-  "<br><b>主催:</b> ", df$host
-)
-
-# 地図作成
-m <- leaflet(data = df)
-
-# 背景地図
-m <- addProviderTiles(m, providers$CartoDB.Positron)
-
-# マーカー追加
-m <- addMarkers(
-  map = m,
-  lng = df$X,
-  lat = df$Y,
-  popup = popup_text
-)
-```
-
-```{r echo=FALSE}
-addFullscreenControl(m)
-```
-
-```{r echo=FALSE}
-table_df <- df[, c("name", "date", "host")]
-
-datatable(
-  table_df,
-  colnames = c("イベント名", "日付", "主催"),
-  options = list(pageLength = 10)
-)
-```
-
+<script>
+const lang = navigator.language.slice(0,2);
+if (lang === "ja") {
+  location.href = "./ja/";
+} else {
+  location.href = "./en/";
+}
+</script>

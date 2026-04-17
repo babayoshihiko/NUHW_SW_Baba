@@ -13,16 +13,23 @@ website:
     pinned: true
     collapse-below: sm
     left:
-      - text: "ホーム"
-        href: /index.html
-      - text: "研究"
-        href: /research.html
       - text: "Home"
-        href: /en/index.html
+        href: index.qmd
       - text: "Research"
-        href: /en/research.html
+        href: research.qmd
+    right:
+      - text: "Language"
+        menu:
+          - text: "日本語"
+            href: /ja/
+          - text: "English"
+            href: /en/
 
 format:
   html:
     theme: cosmo
     toc: true
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="/assets/lang.css">
+          <script src="/assets/lang.js"></script>
