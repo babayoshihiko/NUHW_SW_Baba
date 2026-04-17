@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+  // ===== 設定 =====
   const supportedLangs = ["ja","en","fr","de","es","zh","ko","it","pt","ru"];
   const browserLang = navigator.language.slice(0, 2);
   const origin = window.location.origin;
 
-  // ===== basePath =====
+  // ===== basePath（GitHub Pages対応）=====
   const parts = window.location.pathname.split("/");
   let basePath = "";
 
@@ -12,14 +13,17 @@ document.addEventListener("DOMContentLoaded", () => {
     basePath = `/${parts[1]}`;
   }
 
-  // ===== 現在言語 =====
-  function getCurrentLang() {
-    let path = window.location.pathname;
-
-    if (basePath && path.startsWith(basePath)) {
-      path = path.slice(basePath.length);
+  // ===== basePath除去関数（超重要）=====
+  function stripBasePath(p) {
+    if (basePath && p.startsWith(basePath)) {
+      return p.slice(basePath.length);
     }
+    return p;
+  }
 
+  // ===== 現在言語（URL優先）=====
+  function getCurrentLang() {
+    let path = stripBasePath(window.location.pathname);
     const segs = path.split("/").filter(Boolean);
     const first = segs[0];
 
@@ -30,7 +34,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const currentLang = getCurrentLang();
 
-  // ===== nav-link =====
+  // ==================================================
+  // 🔽 nav-link（通常リンク）
+  // ==================================================
   document.querySelectorAll("a.nav-link").forEach(a => {
 
     const href = a.getAttribute("href");
@@ -47,27 +53,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let path = url.pathname;
 
-    // ===== ここがポイント =====
-    // "/" のときだけ index.html にする
+    // "/" → index.html
     if (path === "/" || path === "") {
       path = "/index.html";
     }
 
-    // 言語プレフィックス除去
+    // ★ basePath除去（最重要）
+    path = stripBasePath(path);
+
+    // 言語除去
     path = path.replace(/^\/?([a-z]{2})\//i, "");
 
     // 先頭スラッシュ削除
     path = path.replace(/^\/+/, "");
 
-    // html以外無視
     if (!path.endsWith(".html")) return;
 
     const newHref = `${basePath}/${currentLang}/${path}`;
-
     a.setAttribute("href", newHref);
   });
 
-  // ===== dropdown（言語切替）=====
+  // ==================================================
+  // 🔽 Language Selector（dropdown）
+  // ==================================================
   document.querySelectorAll("a.dropdown-item").forEach(a => {
 
     const href = a.getAttribute("href");
@@ -88,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!supportedLangs.includes(targetLang)) return;
 
     // 現在ページ取得
-    let currentPath = window.location.pathname;
+    let currentPath = stripBasePath(window.location.pathname);
 
     if (currentPath.endsWith("/")) {
       currentPath += "index.html";
@@ -97,7 +105,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let page = currentPath.split("/").pop();
 
     const newHref = `${basePath}/${targetLang}/${page}`;
-
     a.setAttribute("href", newHref);
   });
 
