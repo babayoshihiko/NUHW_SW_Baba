@@ -17,6 +17,8 @@ website:
         href: index.qmd
       - text: "Research"
         href: research.qmd
+      - text: "Software"
+        href: software.qmd
     right:
       - text: "Language"
         menu:
