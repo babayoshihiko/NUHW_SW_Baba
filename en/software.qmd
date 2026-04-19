@@ -1,0 +1,30 @@
+---
+title: "Software"
+lang: en
+---
+
+# Software
+
+## Software developemnt
+
+I develop geospatial-related software.
+
+- [jpdata](https://plugins.qgis.org/plugins/jpdata/): QGIS plugin to download and load various geographic data of Japan
+- geojp: R package (currently submitting to CRAN) to download and load various geographic data of Japan
+
+Please check my personal [https://github.com/babayoshihiko](https://github.com/babayoshihiko) pages.
+
+## Translations
+
+Doing meta analysisin R
+
+- [Original](https://doing-meta.guide/)
+- [Japanese](https://babayoshihiko.github.io/Doing-Meta-Analysis-in-R-ja/) Please note that Bookdown.org version is older.
+
+The Epidemiologist R Handbook
+
+- [https://epirhandbook.com/en/](https://doing-meta.guide/)
+- [Japanese](https://epirhandbook.com/jp/index.jp.html) Translated many chapters including GIS.
+
+
+

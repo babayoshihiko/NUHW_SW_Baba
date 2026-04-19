@@ -23,12 +23,22 @@ lang: ja
   - R/sf/geojp
   - QGIS プラグイン開発
 
+## 医療福祉の学生向け
+
+新潟医療福祉大学には、学部生が早くから研究をおこなう[UROP（研究プロジェクト演習）](https://sites.google.com/nuhw.ac.jp/nuhw-urop/%E3%83%9B%E3%83%BC%E3%83%A0) という制度があります。
+
+UROP 制度を利用する学生を積極的に受け入れています。他学部・他学科の学生、留学生も歓迎します。
 
 ## 日本の高齢化とまちづくり
 
 Baba Y and Ooyama C (2025) Comprehensive community care in Japan, in 
 <a href="https://www.taylorfrancis.com/books/oa-edit/10.4324/9781003144441/ageing-urban-planning-matthias-drilling-fabian-neuhaus-pamela-suero-hind-al-shoubaki?refId=bd8c5e5c-1349-430b-804c-d47dca69b7ec&context=ubx">Ageing and Urban Planning </a>
 
+日本の介護保険サービス
+
+- [https://babayoshihiko.shinyapps.io/Shiny_LTCI/](https://babayoshihiko.shinyapps.io/Shiny_LTCI/)
+  - [note 記事](https://note.com/tmig_inclusion/n/nca31c17b23b3)
+  - [東京都健康長寿医療センター](https://siencenter.jp/map/)
 
 ## 多様性ファッションショー
 

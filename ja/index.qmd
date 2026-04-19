@@ -34,4 +34,5 @@ lang: ja
   - [まちづくり](https://www.keiwa-c.ac.jp/academic/liberalarts/community_development/)
 - 新潟医療福祉大学
   - [社会福祉学科](https://www.nuhw.ac.jp/faculty/sw/)
-
+- 東京都健康長寿医療センター研究所
+  - [ソーシャルインクルージョン](https://www.tmghig.jp/research/team/fukushi-seikatsu/social-inclusion/)
