@@ -77,31 +77,38 @@ document.addEventListener("DOMContentLoaded", () => {
   // 🔽 Language Selector（dropdown）
   // ==================================================
   document.querySelectorAll("a.dropdown-item").forEach(a => {
-    
+
     const href = a.getAttribute("href");
-    
     if (!href || href.startsWith("#")) return;
 
-    // 1. リンク先(href)からターゲット言語を確実に取得
-    // hrefが "/en/" や "https://.../en/" の想定
-    const pathParts = href.split("/").filter(Boolean);
-    // basePathがある場合は2番目、ない場合は1番目が言語コード
-    const targetLang = supportedLangs.includes(pathParts[0]) ? pathParts[0] : pathParts[1];
+    let url;
+    try {
+      url = new URL(href, origin);
+    } catch {
+      return;
+    }
+
+    if (url.origin !== origin) return;
+
+    // ★ basePath除去（これが本質）
+    let path = stripBasePath(url.pathname);
+
+    const segs = url.pathname.split("/").filter(Boolean);
+    const targetLang = segs[0];
 
     if (!supportedLangs.includes(targetLang)) return;
 
-    // 2. 現在のファイル名を取得
-    let currentPath = window.location.pathname;
-    let page = currentPath.split("/").pop();
+    // 現在ページ取得
+    let currentPath = stripBasePath(window.location.pathname);
 
-    // 3. もしファイル名が空（トップページ）なら index.html に補完
-    if (!page || page === "" || page === "ja" || page === "en") {
-      page = "index.html";
+    if (currentPath.endsWith("/")) {
+      currentPath += "index.html";
     }
 
-    // 4. 組み立て（スラッシュの重複を防ぐ）
-    const newHref = `${basePath}/${targetLang}/${page}`.replace(/\/+/g, "/");
-    
+    let page = currentPath.split("/").pop();
+
+    const newHref = `${basePath}/${targetLang}/${page}`;
     a.setAttribute("href", newHref);
+  });
 
 });

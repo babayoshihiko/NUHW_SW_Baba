@@ -35,3 +35,4 @@ format:
       - text: |
           <link rel="stylesheet" href="/assets/lang.css">
           <script src="/assets/lang.js"></script>
+    include-after-body: header.html
