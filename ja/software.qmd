@@ -1,9 +1,7 @@
 ---
-title: "Software"
+title: "ソフトウェア"
 lang: en
 ---
-
-# ソフトウェア
 
 ## 介護統計学
 
