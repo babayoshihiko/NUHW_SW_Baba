@@ -5,6 +5,10 @@ lang: en
 
 # Software
 
+## Kaigo Statistics
+
+- In [Medical English: How to Read Clinical Papers](https://babayoshihiko.github.io/How/), we first read actual published papers and interpret the statistics. We then reproduce the statistical analyses used in the papers using R.
+
 ## Software developemnt
 
 I develop geospatial-related software.
