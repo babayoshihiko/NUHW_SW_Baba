@@ -24,6 +24,8 @@ lang: ja
 
 ## リンク
 
+- [認知症の人と家族の会](https://www.alzheimer.or.jp/)
+  - [日本認知症国際交流プラットフォーム](https://dementia-platform.jp/ja/author/babayoshihiko/)
 - 新潟難病支援ネットワーク
   - [患者会のご案内](https://niigata-nansen.com/atientsgroup.html)
 - [新潟県ウオーキング協会](https://niigataken.org/)
