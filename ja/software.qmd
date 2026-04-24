@@ -11,6 +11,9 @@ lang: en
 
 - [jpdata](https://plugins.qgis.org/plugins/jpdata/): QGIS plugin to download and load various geographic data of Japan
 - geojp: R package (currently submitting to CRAN) to download and load various geographic data of Japan
+  - [Kaigo Map](http://babayoshihiko.shinyapps.io/Shiny_LTCI/)
+    - [note 記事](https://note.com/tmig_inclusion/n/nca31c17b23b3)
+    - [東京都健康長寿医療センター](https://siencenter.jp/#map)
 
 [https://github.com/babayoshihiko](https://github.com/babayoshihiko) をご覧ください。
 
