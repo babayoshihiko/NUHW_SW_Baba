@@ -3,7 +3,9 @@ title: "Software"
 lang: en
 ---
 
-# Software
+## Kaigo Statistics
+
+- In [Medical English: How to Read Clinical Papers](https://babayoshihiko.github.io/How/), we first read actual published papers and interpret the statistics. We then reproduce the statistical analyses used in the papers using R.
 
 ## Software developemnt
 
@@ -19,14 +21,14 @@ Please check my personal [https://github.com/babayoshihiko](https://github.com/b
 
 ## Translations
 
-Doing meta analysisin R
+Doing meta analysis in R
 
 - [Original](https://doing-meta.guide/)
 - [Japanese](https://babayoshihiko.github.io/Doing-Meta-Analysis-in-R-ja/) Please note that Bookdown.org version is older.
 
 The Epidemiologist R Handbook
 
-- [https://epirhandbook.com/en/](https://doing-meta.guide/)
+- [Original](https://epirhandbook.com/en/)
 - [Japanese](https://epirhandbook.com/jp/index.jp.html) Translated many chapters including GIS.
 
 
