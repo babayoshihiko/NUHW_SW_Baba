@@ -1,0 +1,8 @@
+<script>
+const lang = navigator.language.slice(0,2);
+if (lang === "ja") {
+  location.href = "./ja/";
+} else {
+  location.href = "./en/";
+}
+</script>

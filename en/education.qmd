@@ -1,0 +1,20 @@
+---
+title: "Education"
+lang: en
+---
+
+## Certified Caregiver
+
+- Care Process
+- Care Training Instructor
+  - [Tojinkan College](https://www.tojinkan.ac.jp/seminar/care-training/)
+  - [Lecture Note](https://note.com/medengwriter/m/m965d9f8cb781)
+
+## Statistics for Medicine and Care
+
+- [How to read clinical papers](https://babayoshihiko.github.io/How/): Read English papers and also conduct statistics with R
+
+## Geographil Information System
+
+- [Geocomputation with R](https://r.geocompx.org/en/)
+- [QGIS Plugin development](https://babayoshihiko.github.io/qgis_plugin_development/)

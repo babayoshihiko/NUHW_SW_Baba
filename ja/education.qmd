@@ -1,0 +1,20 @@
+---
+title: "教育"
+lang: ja
+---
+
+## 介護福祉士養成課程
+
+- 介護課程
+- 介護実習指導者講習会
+  - [藤仁館医療福祉専門学校](https://www.tojinkan.ac.jp/seminar/care-training/)
+  - [Lecture Note](https://note.com/medengwriter/m/m965d9f8cb781)
+
+## 医療・介護統計
+
+- [医学英語：臨床論文の読み方](https://babayoshihiko.github.io/How/): 実際の英文論文の読み方を講義。さらに、Plos one に掲載されている論文の中で、データが公開されているもについて R で統計を再現。
+
+## 地理情報システム
+
+- [Geocomputation with R](https://r.geocompx.org/jp/)
+- [QGIS プラグイン開発](https://babayoshihiko.github.io/qgis_plugin_development/)
