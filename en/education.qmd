@@ -14,6 +14,9 @@ lang: en
 
 - [How to read clinical papers](https://babayoshihiko.github.io/How/): Read English papers and also conduct statistics with R
 
+- Certified Caregiver
+  - [Past Exams (Japanese with Ruby)](https://intl-society-for-kaigo-research.github.io/kakomon/)
+
 ## Geographil Information System
 
 - [Geocomputation with R](https://r.geocompx.org/en/)
